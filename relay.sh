@@ -1,3 +1,4 @@
+# Author: Peter Finn - https://github.com/peter2233finn/ linux controler for GeekTechesNC1601
 # Set the IP address and port here:
 ip="192.168.1.4"
 portDir="30000"
