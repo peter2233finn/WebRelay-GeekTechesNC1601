@@ -1,3 +1,4 @@
+# Set the IP address and port here:
 ip="192.168.1.4"
 portDir="30000"
 
@@ -100,11 +101,6 @@ number=$((number-1))
 
 number=$((number*2))
 
-#echo "Num $number"
-#echo "lchar $lastChar"
-
-
-
 if [[ "$lastChar" == "o" ]];then
 #	echo "Relay on"
 	number=$((number+1))
@@ -123,10 +119,8 @@ elif [[ "$rrr" == "ss" ]];then
 	}
 	showStatus | sort
 else
-	echo "Error"
+	echo "Error. Enter a valid command. eg 10, ss or c"
 fi
-
-#echo "finel num is: $number"
 
 # Get length of string. add a 0 of it on less than 10
 if [[ $(echo "$number" | wc -m) == "2" ]]; then
@@ -134,7 +128,6 @@ if [[ $(echo "$number" | wc -m) == "2" ]]; then
 	number="0"$number
 fi
 
-#echo "$ip/30000/$number"
 curl "$ip/$portDir/$number" 2> /dev/null 1> /dev/null
 
 }
