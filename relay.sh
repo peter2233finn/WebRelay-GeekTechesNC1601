@@ -7,10 +7,10 @@ function compileMode(){
 clear
 
 echo "Compile mode:"
-echo "s     = sleep WORKING"
+echo "s     = sleep"
 echo "n o/f = turn on/off"
-echo "e     = execute WORKING"
-echo "c     = cancel WORKING"
+echo "e     = execute"
+echo "c     = cancel"
 
 function execute(){
 	clear
