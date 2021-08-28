@@ -1,4 +1,4 @@
-# WebRelay-GeekTechesNC1601
+# WebRelay - GeekTechesNC1601
 Control GeekTechesNC1601 written in bash.
 The IP address and "port" (If you want to call it that) can be set in the top of the file.
 
