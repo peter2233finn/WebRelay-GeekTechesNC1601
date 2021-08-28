@@ -21,7 +21,9 @@ Sub commands example:<br>
 s1 - sleep 1 second<br>
 s5m - sleep 5 minuites<br>
 s2h - sleep 2 hours<br>
-then all other commands eg. 1o, 5f ect<br><br>
+e - execute<br>
+c - cancel and exit<br><br>
+then all other commands eg. 1o, 5f ect<br>
 
 For loop in compile mode:<br>
 f10 will loop 10 times<br>
