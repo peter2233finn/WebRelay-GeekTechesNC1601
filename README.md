@@ -15,7 +15,7 @@ Replace the number with an "a" to change all relays. (This needs work.).
 ./relay.sh 1f - to turn all relays off
 <br>
 <br>
-./relay.sh c will enter comple mode (Not great. Not great)
+./relay.sh c will enter comple mode (Not great tbh)
 <br>
 Sub commands example:<br>
 s1 - sleep 1 second<br>
